@@ -1,0 +1,7 @@
+[user]
+  email = <acrite22@hotmail.com>
+  name = Rodger Maarfi
+[color]
+  ui = auto
+[core]
+  excludesfile = ~/.gitignore
