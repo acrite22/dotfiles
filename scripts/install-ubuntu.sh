@@ -11,6 +11,7 @@ sudo apt -y install inotify-tools
 #postgres
 sudo apt -y install postgresql
 sudo -u postgres createuser -s $(whoami);
+sudo -u postgres psql -c "ALTER USER postgres PASSWORD 'postgres';"
 
 #zsh
 sudo apt -y install zsh
