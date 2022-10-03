@@ -6,6 +6,7 @@ sudo apt -y install jq
 sudo apt -y install tmux
 sudo apt -y install neofetch
 sudo apt -y install libssl-dev automake autoconf libncurses5-dev
+sudo apt -y install inotify-tools
 
 #postgres
 sudo apt -y install postgresql
