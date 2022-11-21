@@ -1,10 +1,14 @@
 sudo apt upgrade
-sudo apt-get update
+sudo apt update
 
 sudo apt -y install git
+sudo apt -y install curl
 sudo apt -y install jq
 sudo apt -y install tmux
 sudo apt -y install neofetch
+sudo apt -y install make
+sudo apt -y install gcc
+sudo apt -y install g++
 sudo apt -y install libssl-dev automake autoconf libncurses5-dev
 sudo apt -y install inotify-tools
 
@@ -27,9 +31,10 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 . ~/.asdf/asdf.sh
 asdf plugin add erlang
 asdf plugin add elixir
+asdf plugin add neovim
 asdf install erlang 25.1
 asdf install elixir 1.14.0-otp-25
-asdf install neovim latest
+asdf install neovim 0.8.1
 
 #neovim 
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim

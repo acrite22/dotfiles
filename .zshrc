@@ -4,6 +4,8 @@ export PROMPT='%m:%1~ '
 . $HOME/.asdf/asdf.sh
 
 #elixir 
+export PATH=$PATH:~/source/elixir/bin
+
 alias ism="iex -S mix"
 alias mr="mix run"
 export ERL_AFLAGS="-kernel shell_history enabled"
