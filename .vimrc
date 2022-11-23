@@ -54,6 +54,12 @@ let g:ctrlp_dont_split = 'NERD'
 nmap <Leader>kb :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
+" panel navigation
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
 " vim test
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
